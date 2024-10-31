@@ -1,7 +1,8 @@
-import java.util.Scanner;
+package Array;
+
+import java.util.*;
 
 public class Array {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] array1 = { 2, 3, 6, 6, 7, 8 }; // khởi tạo array khi biết trước các phần tử
@@ -11,6 +12,7 @@ public class Array {
         // Ví dụ: Input: 6 -> output: 2
         // Ví dụ: Input: 5 -> output: -1
         int number = sc.nextInt(); // 5
+
         // ***** Những bài toán bắt in ra chỉ số (nếu không tìm thấy phần tử in ra -1)
         // -> ta sẽ khởi tạo biến position = -1
         int position = -1;
@@ -22,12 +24,7 @@ public class Array {
             }
         }
         System.out.println(position);
-        //
-        // Buổi sau học function
-        // Buổi sau nữa do while, while
-        // Ôn 1,2 buổi oop
     }
-
 }
 
 // Bài tập 8: Nhập và một số nguyên dương n, arr. Đếm trong mảng có tất cả bao
