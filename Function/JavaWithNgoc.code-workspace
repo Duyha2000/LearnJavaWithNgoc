@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "JavaWithNgoc",
+		"path": ".."
+	},
+	{
+		"name": "OOP",
+		"path": "../../Documents/LearnJavaWithNgoc/src/main/java/OOP"
+	}
+],
+  "settings": {}
+}

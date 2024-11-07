@@ -5,7 +5,8 @@ import java.util.*;
 public class String1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String text1 = sc.nextLine(); // chuoi = chuối 1
+        // function
+        String text1 = sc.nextLine();
         String text2 = sc.nextLine();
         if (text1.length() > text2.length()) {
             System.out.println(text1);
