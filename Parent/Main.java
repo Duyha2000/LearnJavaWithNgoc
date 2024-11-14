@@ -9,7 +9,7 @@ public class Main {
         System.out.println(person);
         // khởi tạo ra 1 đối tượng Child
         Child2 child = new Child2("Alice", 3, "Play football");
-        child.setHobby("Play game");
+        // child.setHobby("Play game");
 
     }
 }
