@@ -1,6 +1,6 @@
 package Extends2;
 
-public class Main {
+public class Extends2 {
     public static void main(String[] args) {
         Person p = new Person("Ngoc ", 18, "abc");
         p.displayInformation();
