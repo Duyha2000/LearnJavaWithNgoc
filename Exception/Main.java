@@ -71,8 +71,8 @@ public class Main {
                 System.out.println("Nhập sai kiểu dữ liệu số nguyên");
             }
         }
-        return number;
-        // hay để hôm sau học nốt mạng lag OK em... chúc em tuổi 18 hồn nhiên, bye em!
+        // return number;
+
     }
 
 }

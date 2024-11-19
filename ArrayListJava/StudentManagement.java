@@ -1,13 +1,11 @@
 package ArrayListJava;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 
 public class StudentManagement {
     // listStudent 10 thằng
-    ArrayList<Student> students = new ArrayList<>(Arrays.asList(
-            new Student(1, "John Doe", 85.5)));
+    ArrayList<Student> students = new ArrayList<>();
 
     public void showAll() {
         // for (int i = 0; i < students.size(); i++) {
@@ -23,16 +21,23 @@ public class StudentManagement {
     }
 
     public void removeStudent(int studentId) {
-        int position = -1;
+        int position = -1; // k tìm thấy position trả về -1 (quy ước)
+        // Sử
+        // Toán (0) Lý (1) Hóa(2)
         for (int i = 0; i < students.size(); i++) {
             if (studentId == students.get(i).getStudentID()) {
                 position = i;
                 break;
             }
         }
-        students.remove(position);
-        // int indexDelete = students.indexOf(studentId);
-        // students.remove(indexDelete);
+        if (position == -1)
+            System.out.println("không có sách");
+        else {
+            students.remove(position);
+            System.err.println("Xóa thành công");
+        }
+        // nếu không có sách thì trả về -1 -> if(position = -1) -> in ra lỗi
+        // còn nếu có trả về position rồi xóa sách
     }
 
     // Nhập id = 5 -> Hiển thị toàn bộ thông tin của học sinh có id là 5
