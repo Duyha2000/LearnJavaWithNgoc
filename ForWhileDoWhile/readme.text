@@ -1,0 +1,133 @@
+https://docs.google.com/document/d/1pCQ_0_ez6xYZrkW1Z6fHZhW10koBOhvGmqc6yBo3_pw/edit?tab=t.0#heading=h.g7s63utnd1xh
+
+int n = sc.nextInt(); // 80
+// for (int i = n; i <= 100; i++) {
+// if (i % 2 == 0) {
+// System.out.println(i);
+// }
+// }
+// while dịch là: "lặp khi" n
+// n = 80 -> kiểm tra số chẵn thì in ra
+while (n <= 100) {
+    if (n % 2 == 0) {
+        System.out.println(n); // 80 82 ... ...
+    }
+
+    // steps: giá trị để out vòng lặp (nếu không có sẽ bị vô hạn) 
+    n += 1;
+}
+
+Bài 2: 
+ int factorial = 1;
+        int n = sc.nextInt(); // n = 5
+        // for (int i = 1; i <= n; i++) {
+        // factorial *= i;
+        // }
+        // System.out.println(factorial);
+        // while cho anh! em chiu, anh bảo em làm chứ k bảo em chịu ok, n sẽ lùi đến khi
+        // ừm, step ở dưới cùng while, logic viết ở trên, i đâu tr ơi, biến gì sẽ thay
+        // đổi mỗi lần lặp OK!!!
+        while (n > 0) {
+            factorial *= n;
+            // steps:
+            n -= 1;
+        }
+        System.out.println(factorial);
+
+        Bài 3:  int a = sc.nextInt(); // a = 1
+        int b = sc.nextInt(); // b = 50
+
+        // for (int i = a; i <= b; i++) {
+        // if (i % 3 == 0 && i % 5 == 0) {
+        // System.out.println(i);
+        // }
+        // }
+        while (a <= b) {
+            if (a % 3 == 0 && a % 5 == 0) {
+                System.out.println(a
+                );
+            }
+            // steps:
+            a += 1;
+        }
+
+        Bài 3:
+        int choice;
+        // do while (trong do while là if - else if - else )
+        do {
+            System.out.println("choose a number : ");
+            System.out.println(" 1. check odd or even ");
+            System.out.println(" 2. check if it's a prime number  ");
+            System.out.println(" 3. check if số đấy chia hết cho 3");
+            System.out.println(" 4. exit ");
+            choice = sc.nextInt();
+            if (choice == 1) {
+                System.out.println(" check odd or even");
+                System.out.println(" enter a number ");
+                int a = sc.nextInt();
+                if (a % 2 == 1) {
+                    System.out.println(" odd ");
+                } else {
+                    System.out.println("even ");
+                }
+            } else if (choice == 2) {
+                System.out.println(" check if it's a prime number ");
+                System.out.println("enter a number ");
+                int b = sc.nextInt();
+                boolean isPrime = true;
+                for (int i = 2; i < b; i++) {
+                    if (b % i == 0) {
+                        isPrime = false;
+                    }
+                }
+                if (isPrime == true) {
+                    System.out.println(" is a prime number ");
+                } else {
+                    System.out.println(" isn't a prime number");
+                }
+            } else if (choice == 3) {
+                System.out.println("kiểm tra xem số có chia hết cho 3 ?");
+                System.out.println("enter a number ");
+                int c = sc.nextInt();
+                if (c % 3 == 0) {
+                    System.out.println("chia het cho 3");
+                } else {
+                    System.out.println(" 0 chia het cho 3");
+                }
+            } else if (choice == 4) {
+                System.out.println("bye");
+                break;
+            } else {
+                System.out.println("invalid");
+            }
+        } while (choice != 4);
+
+        Bài 6: 
+        int n = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                System.out.println(i);
+            }
+        }
+
+        Bài 7:
+
+         int a = sc.nextInt();
+        int b = sc.nextInt();
+        int multiply = 1;
+        for (int i = 1; i <= b; i++) {
+            multiply *= a;
+        }
+        System.out.println(multiply);
+
+        Bài 8:
+          int n = 1;
+        // lặp đúng - lặp vĩnh viễn ( forever)
+        while (true) {
+            if (n % 3 == 0 && n % 5 == 0 && n % 7 == 0) {
+                System.out.println(n);
+                break; // thoát ra
+            }
+            // steps:
+            n++;
+        }

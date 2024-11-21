@@ -98,8 +98,8 @@
 // lần)
 // // while for đều là vòng lặp, dùng thay thế cho nhau được
 // // kiểm tra đúng hoặc sai sẽ tạo 1 biến boolean
-// // boolean isPrime = true;
-// // for (int i = 2; i <= Math.sqrt(a); i++) {
+// // boolean isPrime = true; // 13 -> 2 12
+// // for (int i = 2; i < a; i++) {
 // // if (a % i == 0) {
 // // isPrime = false;
 // // }
