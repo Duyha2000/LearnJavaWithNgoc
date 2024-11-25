@@ -1,0 +1,33 @@
+h3 {
+  color: red;
+  font-size: 30px;
+  background-color: green;
+  width: 200px;
+}
+
+div {
+  color: red;
+  font-size: 30px;
+}
+
+/* buộc thuộc tính màu sắc cho text (color) */
+/* Arial  */
+/* line-height: 1.5*/
+/* letter-spacing: 3px*/
+/* font-weight: > 500 chữ đậm, < 500 chữ nhạt */
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: red;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
