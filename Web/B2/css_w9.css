@@ -1,0 +1,48 @@
+h3 {
+  color: magenta;
+  font-size: 20pt;
+}
+
+h4 {
+  color: green;
+}
+
+.bigyell {
+  font-size: 18pt;
+  background-color: blue;
+  color: white;
+}
+
+.caption {
+  font-weight: 700;
+  color: cornflowerblue;
+  letter-spacing: 2px;
+}
+
+#CSSlab_id1 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+span.class1 {
+  color: rosybrown;
+}
+span.class2 {
+  color: royalblue;
+}
+h1,
+h2,
+h5 {
+  font-family: Helvetica, sans-serif;
+}
+h3,
+h4,
+p {
+  font-family: "MonoType Corsiva", sans-serif;
+}
+ul {
+  margin-left: 75px;
+}
+ul ul {
+  text-decoration: underline;
+  margin-left: 15px;
+}
