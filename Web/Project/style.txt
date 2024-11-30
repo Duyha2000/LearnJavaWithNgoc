@@ -1,0 +1,22 @@
+/* CSS cho chữ có class title */
+/* Lấy font chữ */
+/* Color, font-size, font-weigth >500 chữ đâm, < 500 chữ nhạt, line-heigth: 1.5 , letter-spacing: 2,3px, background-color*/
+body {
+  font-family: "Rubik", serif;
+}
+.title {
+  font-weight: 300;
+  background-color: gray;
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; */
+  text-align: center; /* chữ căn giữa (thẻ block) */
+}
+
+/* Căn chỉnh khoảng cách giữa các phần tử, padding, margin */
+/* padding: tạo khoảng cách bên trong phần tử */
+
+/* margin: tạo khoảng cách giữa 2 phần tử riêng biệt */
+.title-small {
+  margin-top: 100px;
+}
