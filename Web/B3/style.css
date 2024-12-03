@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+}
+.mom {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16pt;
+  color: #000000;
+}
+.alo {
+  display: flex;
+  gap: 12px;
+}
+.price {
+  color: red;
+}
+.discount {
+  text-decoration: line-through;
+}
