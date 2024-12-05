@@ -1,0 +1,23 @@
+*** Khi nhìn thấy 1 bài tập về giao diện ***
+Bước 1: Reset, 
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box
+}
+Bước 2:
+Xác định container (phần để cho không bị căn giữa 2 đường viền trái phải)
+.container{
+    width:1170px
+    margin: 0 auto (căn giữa)
+}
+container sẽ là phần bao bọc lại toàn bộ các thẻ
+
+Bước 3: Xác định được font-chữ (lấy trên google font)
+
+*** display: flex cho phần tử cha ***
+- flex-direction: row/column (xoay layout các phần từ con theo chiều ngang / dọc)
+- justify-content: căn các phần tử con theo chiều ngang 
+- align-items: căn các phần tử con theo chiều dọc
+- gap: tạo khoảng cách giữa các phần tử
+- flex-wrap: nowrap / wrap
