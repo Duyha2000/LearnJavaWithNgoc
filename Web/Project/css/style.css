@@ -110,7 +110,7 @@ button:hover {
 }
 
 .info-item {
-  margin-bottom: 15px; /* Space between each <p> */
+  margin-bottom: 15px;
   color: #333; /* Text color */
 }
 .info {
@@ -137,7 +137,4 @@ header {
   list-style: none;
   display: flex;
   gap: 20px;
-}
-
-.link a {
 }
