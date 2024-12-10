@@ -1,0 +1,63 @@
+package Hashmap;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("ngọc");
+        names.add("doanh");
+        names.add("duy");
+        names.add("Hà");
+        ArrayList<Integer> prices = new ArrayList<>();
+        prices.add(30000);
+        prices.add(45000);
+        prices.add(5000);
+        prices.add(40000);
+        // Nếu không học hashmap, không có cách nào để lưu được tên và giá tiền tương
+        // ứng
+        // Hashmap - Dictionary: Key - value
+        // Phở - 30000 -> Key Phở - value 30000
+        HashMap<String, Integer> menu = new HashMap<>();
+        // Thêm giá trị vào hashmap:
+        menu.put("Phở", 25000);
+        menu.put("Bún bò", 25000);
+        menu.put("Cháo quẩy", 35000);
+        System.out.println(menu);
+        HashMap<Integer, String> students = new HashMap<>();
+        // Thêm giá trị vào hashmap:
+        // 26 - Doanh, 15 - Ngọc: entry
+        students.put(26, "Doanh");
+        students.put(15, "Cường");
+        // students.put(15, "Quỳnh"); // key này đã tồn tại, nó sẽ bị ghi đè
+        // // Sửa giá trị value trong hashmap:
+        // replace:
+        // students.replace(15, "Quỳnh");
+        // xóa giá trị trong hashmap dựa vào key:
+        students.remove(15);
+        System.out.println(students);
+        // Duyệt các phần tử trong hashmap:
+        // Lấy ra tất cả key trong Hashmap: keySet()
+        System.out.println(menu.keySet()); // Lấy ra tất cả key:
+        System.out.println(menu.get("Phở")); // Lấy ra value từ key trong hashmap:
+        System.out.println(menu.get("Bún bò"));
+        System.out.println(menu.values()); // lấy ra tất cả value
+        // Duyệt hashmap: vòng lặp for each dựa vào entry (lấy ra từng cặp key - value)
+        for (Entry<String, Integer> entry : menu.entrySet()) {
+            System.out.println(entry);
+        }
+        // Cách thứ 2: dựa vào keySet
+        for (String name : menu.keySet()) {
+            System.out.println("Key: " + name + ", value:" + menu.get(name));
+        }
+        // containsKey, containsValue:
+        System.out.println(menu.containsKey("Phở"));
+        System.out.println(menu.containsKey("Bún bò Huế"));
+        System.out.println(menu.containsValue(25000));
+        System.out.println(menu.containsValue(1526));
+
+    }
+
+}
