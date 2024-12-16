@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+/* layout từ ngoài vào trong */
+.item {
+  width: 777px;
+  background-color: #8080807d;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+/* bo góc: radius*/
+.a {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid gray;
+}
+.b {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.c {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+/* border: 1px solid (nét liền) color */
+.d {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: blue;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.e {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

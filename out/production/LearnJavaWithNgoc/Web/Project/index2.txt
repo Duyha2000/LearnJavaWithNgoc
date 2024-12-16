@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- html:5 -->
+  <!-- link:css -->
+  <!-- Font Inter -->
+  <!-- http://localhost:5500/Web/Project/index.html -->
+  <body>
+    <div class="item">
+      <img
+        class="java"
+        src="https://i-giaitri.vnecdn.net/2022/06/09/trinhcongsonemvatrinh-16547467-9710-4556-1654746766.jpg"
+      />
+      <h1 class="python">
+        Khán giả tranh cãi trái chiều về em và Trịnh: Hình ảnh đẹp nhưng cảm xúc
+        nửa vời, sai lệch góc nhìn về Trịnh Công Sơn
+      </h1>
+      <p class="sql">
+        Em và Trịnh hiện đang là tựa phim hot nhất thời điểm hiện tại ở phòng
+        vé, cùng với đó là nhiều tranh cãi trái chiều của khán giả
+      </p>
+    </div>
+  </body>
+</html>

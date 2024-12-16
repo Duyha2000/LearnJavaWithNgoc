@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Inline: trên 1 dòng: a, img , span -->
+    <a href="google.com">Xin chào</a>
+    <a href="google.com">Xin chào</a>
+    <a href="google.com">Xin chào</a>
+    <img
+      src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_640.jpg"
+      alt=""
+    />
+    <div>Hello</div>
+    <span>Xin chào Ngọc Stanford</span>
+    <!-- Block: 1 khối (1 thẻ ứng với dòng): div, h1 -> h6 (heading), p,header, footer, article -->
+    <header>Xin chào</header>
+
+    <h1>Chữ siêu to</h1>
+    <h3>Chữ siêu to</h3>
+    <div>Xin chào</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, <br />
+      modi aliquam, accusantium, impedit saepe eaque soluta ullam placeat minus
+      officiis sit. Voluptas omnis temporibus quisquam animi similique eum
+      minima molestiae.
+    </p>
+    <hr />
+
+    <div class="coding">
+      <span>Ngọc yêu code</span>
+      <span>Ngọc yêu code HTML CSS</span>
+      <span>Ngọc yêu code Python</span>
+      <p>Ngọc yêu code Java</p>
+    </div>
+
+    <!-- thẻ danh sách: Toán Lý Hóa -->
+    <!-- Sự khác nhau giữa ul  và ol -->
+    <!-- ul: unorder list: . . . + + + -->
+    <!-- ol: order list: 1 2 3 4 -->
+    <ul>
+      <li>Toán</li>
+      <li>Lý</li>
+      <li>Hóa</li>
+    </ul>
+
+    <ol>
+      <li>Toán</li>
+      <li>Lý</li>
+      <li>Hóa</li>
+    </ol>
+
+    <footer>Dưới cùng</footer>
+    <!-- Trong thẻ block sẽ có nhiều thẻ inline,block được -->
+    <!-- br: xuống dòng  -->
+    <!-- hr: đường gạch ngang -->
+
+    <style>
+      .coding {
+        background-color: red;
+      }
+    </style>
+  </body>
+</html>
+
+
+<!-- Table: bảng -->
+    <!-- table, thead ,th: table header, tr: table row, td: table data, tbody -->
+    <!-- <table border="1">
+      <thead>
+        <th>product id</th>
+        <th>product name</th>
+        <th>product quality</th>
+        <th>product quantity</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>wheat</td>
+          <td>good</td>
+          <td>200 bags</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>rice</td>
+          <td>good</td>
+          <td>200 bags</td>
+        </tr>
+      </tbody>
+    </table> -->

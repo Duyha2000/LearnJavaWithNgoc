@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #f5f5f5;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.photo {
+  display: flex;
+  gap: 50pt;
+}
+
+.intro-2 {
+  white-space: nowrap;
+  font-size: 40px;
+  position: relative;
+  color: black;
+  transition: color 0.5s ease;
+}
+
+.intro-2::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(50, 100, 191);
+  transition: width 0.5s ease;
+}
+
+.intro-2:hover {
+  color: rgb(50, 100, 191);
+  cursor: pointer;
+}
+
+.intro-2:hover::after {
+  width: 10%;
+}
+
+.body {
+  padding-bottom: 10px;
+}
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: rgb(50, 100, 191);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background-color: rgb(50, 100, 191);
+  transform: scale(1.1);
+  opacity: 0.75;
+}
+.link {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.info-item {
+  margin-bottom: 15px; /* Space between each <p> */
+  color: #333; /* Text color */
+}
+.info {
+  margin-top: 30px;
+}
+.info-item a {
+  color: rgb(50, 100, 191);
+}
+
+.info-item a:hover {
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 20px;
+  color: black;
+}
+.link a:hover {
+  color: rgb(50, 100, 191);
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link a {
+}

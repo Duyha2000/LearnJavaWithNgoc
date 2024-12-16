@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+/* css-reset */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Khi bắt đầu CSS, css từ ngoài vào trong */
+.item {
+  width: 600px;
+  background-color: paleturquoise;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  /* overflow: hidden; khi phần tử tràn ra ngoài layout sẽ làm nội dung bên ngoài mất đi */
+}
+.java {
+  width: 100%; /* rộng bằng chiều rộng phần tử cha */
+}
+/* chữ khán giả với ảnh cần cách nhau ra 1 đoạn */
+.python {
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 15px;
+}
+.sql {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  line-height: 1.4;
+}
